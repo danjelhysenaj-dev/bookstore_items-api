@@ -1,0 +1,6 @@
+github.com/danjelhysenaj-dev/bookstore_oauth-go v1.0.6 h1:PHduMj8w5Trz5RICH2V/AwbrXNjLB+zhGHdRcP1Nsmg=
+github.com/danjelhysenaj-dev/bookstore_oauth-go v1.0.6/go.mod h1:mdx2xmlnnJhZL66w0uspZILRD3U+UvO/g0QUfYKRaoo=
+github.com/danjelhysenaj-dev/bookstore_utils-go v1.0.0 h1:dfr93dFJClHvhNTuBWqElQu4OR3642KNl2StyUNs79s=
+github.com/danjelhysenaj-dev/bookstore_utils-go v1.0.0/go.mod h1:uXrn2szCnnO7sxxn6q0y4WTlV045A04lK8lRGQh+y8Q=
+github.com/gorilla/mux v1.8.1 h1:TuBL49tXwgrFYWhqrNgrUNEY92u81SPhu7sTdzQEiWY=
+github.com/gorilla/mux v1.8.1/go.mod h1:AKf9I4AEqPTmMytcMc0KkNouC66V3BtZ4qD5fmWSiMQ=
