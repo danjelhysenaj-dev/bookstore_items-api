@@ -8,7 +8,20 @@ import (
 	"net/http"
 )
 
-func Create(w http.ResponseWriter, r *http.Request) {
+var (
+	ItemsController itemsControllerInterface = &itemsController{}
+)
+
+type itemsControllerInterface interface {
+	Create(w http.ResponseWriter, r *http.Request)
+	Get(w http.ResponseWriter, r http.Request)
+}
+
+// itemsController is going to expose the Create() Get() methods declared below by declaring it in var ItemsController
+type itemsController struct {
+}
+
+func (c *itemsController) Create(w http.ResponseWriter, r *http.Request) {
 	if err := oauth.AuthenticateRequest(r); err != nil {
 		//TODO: Return error to the user.
 		return
@@ -23,6 +36,6 @@ func Create(w http.ResponseWriter, r *http.Request) {
 	fmt.Println(result)
 	//TODO: Return created item as json with HTTP status 201 - Created.
 }
-func Get(w http.ResponseWriter, r http.Request) {
+func (c *itemsController) Get(w http.ResponseWriter, r http.Request) {
 
 }

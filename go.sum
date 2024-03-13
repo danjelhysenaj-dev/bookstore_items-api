@@ -4,3 +4,5 @@ github.com/danjelhysenaj-dev/bookstore_utils-go v1.0.0 h1:dfr93dFJClHvhNTuBWqElQ
 github.com/danjelhysenaj-dev/bookstore_utils-go v1.0.0/go.mod h1:uXrn2szCnnO7sxxn6q0y4WTlV045A04lK8lRGQh+y8Q=
 github.com/gorilla/mux v1.8.1 h1:TuBL49tXwgrFYWhqrNgrUNEY92u81SPhu7sTdzQEiWY=
 github.com/gorilla/mux v1.8.1/go.mod h1:AKf9I4AEqPTmMytcMc0KkNouC66V3BtZ4qD5fmWSiMQ=
+github.com/mercadolibre/golang-restclient v0.0.0-20170701022150-51958130a0a0 h1:EDOjA2IGgjSBlPlnW7CzBUo/o410SMiFh670jP29Kc4=
+github.com/mercadolibre/golang-restclient v0.0.0-20170701022150-51958130a0a0/go.mod h1:Z7qYja4aGk/RWl1yJtN1LXRvC7Hsbq8SEbqWWDrMqMs=

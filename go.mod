@@ -6,4 +6,5 @@ require (
 	github.com/danjelhysenaj-dev/bookstore_oauth-go v1.0.6 // indirect
 	github.com/danjelhysenaj-dev/bookstore_utils-go v1.0.0 // indirect
 	github.com/gorilla/mux v1.8.1 // indirect
+	github.com/mercadolibre/golang-restclient v0.0.0-20170701022150-51958130a0a0 // indirect
 )
